@@ -4,6 +4,8 @@ A minimal extension to rid you of your cookie burdens during development. Or jus
 
 Install then click the cookie when you desire absolution.
 
+Attribution: this is a reworked and updated version of <a href="https://github.com/nestoru/remove-cookies-for-site">remove-cookies-for-site</a> by fellow cookie abolitionist <a href="https://github.com/nestoru">nestoru</a> (thanks lil buddy).
+
 ## What It Does
 
 - Works on the active tab when the URL uses `http` or `https`.
