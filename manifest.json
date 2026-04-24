@@ -1,0 +1,26 @@
+{
+    "name": "Cookie Blaster",
+    "version": "1.0",
+    "description": "A Chrome extension to delete cookies for the current tab.",
+    "manifest_version": 3,
+    "permissions": [
+        "cookies",
+        "tabs"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "background": {
+        "service_worker": "cookie-blaster.js"
+    },
+    "icons": {
+        "48": "cookie-blaster48.png",
+        "128": "cookie-blaster128.png"
+    },
+    "action": {
+        "default_icon": {
+            "48": "cookie-blaster48.png",
+            "128": "cookie-blaster128.png"
+        }
+    }
+}
