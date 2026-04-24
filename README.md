@@ -1,6 +1,8 @@
 # Cookie Blaster
 
-Cookie Blaster is a minimal Chrome extension that clears the cookies associated with the currently active page when you click the extension button.
+A minimal extension to rid you of your cookie burdens during development. Or just when you're really fucken tired of clearing them just to read "one more article" on a site.
+
+Install then click the cookie when you desire absolution.
 
 ## What It Does
 
@@ -44,15 +46,6 @@ To try the extension in Chrome:
 2. Enable Developer mode.
 3. Click Load unpacked.
 4. Select this repository folder.
-
-## Current Repo Notes
-
-The repository contains a couple of setup issues worth fixing before loading it as an unpacked extension:
-
-- `manifest.json` does not currently include standard required metadata such as `name` and `version`.
-- The manifest references `cookie-blaster48.png` and `cookie-blaster128.png`, but the files in the repo are named `cooki-blaster48.png` and `cooki-blaster128.png`.
-
-Once those values are aligned, clicking the extension icon on any normal web page should clear that page's cookies.
 
 ## Development
 
